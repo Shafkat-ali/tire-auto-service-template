@@ -1,0 +1,74 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Services | RoadLine Tire & Auto</title>
+  <meta name="description" content="Service page template with filterable tire, repair, and dealer support offers.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="RoadLine home"><span class="brand-mark">RL</span><span><strong>RoadLine</strong><small>Tire & Auto</small></span></a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Primary navigation"><a href="index.html">Home</a><a class="active" href="services.html">Services</a><a href="quote.html">Quote</a></nav>
+  </header>
+
+  <main>
+    <section class="page-hero compact">
+      <div>
+        <p class="eyebrow">Services</p>
+        <h1>Filterable service menu for tire shops and auto dealers.</h1>
+        <p>Clients can show prices, categories, add-ons, and quote links without building a full ecommerce store.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="filter-row" role="group" aria-label="Filter services">
+        <button class="filter-button active" type="button" data-filter="all">All</button>
+        <button class="filter-button" type="button" data-filter="tires">Tires</button>
+        <button class="filter-button" type="button" data-filter="service">Service</button>
+        <button class="filter-button" type="button" data-filter="dealer">Dealer</button>
+      </div>
+
+      <div class="service-list">
+        <article class="service-row" data-category="tires">
+          <img src="assets/images/tire-display.png" alt="Tire inventory display">
+          <div><span class="badge">Tires</span><h2>Tire Installation Package</h2><p>Mount, balance, valve stems, pressure check, and disposal options for a clear retail package.</p></div>
+          <strong class="price">From $99</strong>
+        </article>
+        <article class="service-row" data-category="service">
+          <img src="assets/images/alignment-service.png" alt="Wheel alignment service">
+          <div><span class="badge">Service</span><h2>Wheel Alignment</h2><p>Two-wheel or four-wheel alignment promotions with easy quote and booking conversion.</p></div>
+          <strong class="price">From $119</strong>
+        </article>
+        <article class="service-row" data-category="service">
+          <img src="assets/images/hero-shop.png" alt="Auto shop service bay">
+          <div><span class="badge">Service</span><h2>Brake and Inspection Check</h2><p>Great for shops that bundle seasonal inspections with tires, oil, brakes, and safety checks.</p></div>
+          <strong class="price">Quote</strong>
+        </article>
+        <article class="service-row" data-category="dealer">
+          <img src="assets/images/customer-service.png" alt="Service counter customer support">
+          <div><span class="badge">Dealer</span><h2>Fleet and Dealer Accounts</h2><p>Dedicated service lane copy for used car lots, small fleets, rental operators, and repeat accounts.</p></div>
+          <strong class="price">Custom</strong>
+        </article>
+      </div>
+    </section>
+
+    <section class="section muted">
+      <div class="section-heading"><p class="eyebrow">FAQ</p><h2>Questions customers usually ask first.</h2></div>
+      <div class="faq-list">
+        <details><summary>Can customers book directly?</summary><p>The demo form saves requests locally. For production, connect it to email, Formspree, Netlify Forms, a CRM, or a shop management API.</p></details>
+        <details><summary>Can this work for a shoe store or other service business?</summary><p>Yes. The structure is service-business friendly. Replace tire inventory and auto services with product fittings, repairs, appointments, or dealer inventory.</p></details>
+        <details><summary>Can prices be removed?</summary><p>Yes. Replace prices with quote labels or client-specific specials in the service rows.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div><strong>RoadLine Tire & Auto</strong><p>Template content for client demos. Replace with real shop address, hours, and offers.</p></div>
+    <div class="footer-links"><a href="index.html">Home</a><a href="quote.html">Quote</a><a href="tel:+15550195500">(555) 019-5500</a></div>
+  </footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>

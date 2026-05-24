@@ -1,0 +1,62 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quote | RoadLine Tire & Auto</title>
+  <meta name="description" content="Quote request page template for tire shops and auto service businesses.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="RoadLine home"><span class="brand-mark">RL</span><span><strong>RoadLine</strong><small>Tire & Auto</small></span></a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="site-nav" aria-label="Primary navigation"><a href="index.html">Home</a><a href="services.html">Services</a><a class="active" href="quote.html">Quote</a></nav>
+  </header>
+
+  <main>
+    <section class="page-hero split">
+      <div>
+        <p class="eyebrow">Request quote</p>
+        <h1>Capture tire, service, and dealer leads in one place.</h1>
+        <p>This page gives clients a working quote request flow for demos. Submissions are saved in the browser until connected to a real backend.</p>
+      </div>
+      <img src="assets/images/customer-service.png" alt="Service advisor helping a customer at the counter">
+    </section>
+
+    <section class="section form-layout">
+      <form class="quote-form" id="quoteForm">
+        <div class="form-row">
+          <label>Full name<input name="name" autocomplete="name" required placeholder="Alex Johnson"></label>
+          <label>Phone<input name="phone" autocomplete="tel" required placeholder="(555) 019-5500"></label>
+        </div>
+        <div class="form-row">
+          <label>Email<input type="email" name="email" autocomplete="email" required placeholder="alex@example.com"></label>
+          <label>Vehicle<input name="vehicle" placeholder="2021 Honda CR-V"></label>
+        </div>
+        <label>Service needed<select name="service" required><option value="">Choose service</option><option>New tire quote</option><option>Tire installation</option><option>Wheel alignment</option><option>Brake or inspection check</option><option>Fleet or dealer account</option></select></label>
+        <label>Preferred timing<select name="timing" required><option>This week</option><option>Next week</option><option>Today if available</option><option>Just pricing</option></select></label>
+        <label>Notes<textarea name="notes" rows="5" placeholder="Tire size, symptoms, current quote, or anything the shop should know."></textarea></label>
+        <button class="button primary" type="submit">Send Quote Request</button>
+        <p class="form-message" id="formMessage" role="status" aria-live="polite"></p>
+      </form>
+
+      <aside class="contact-panel">
+        <h2>Shop details</h2>
+        <dl>
+          <div><dt>Phone</dt><dd><a href="tel:+15550195500">(555) 019-5500</a></dd></div>
+          <div><dt>Address</dt><dd>1480 Service Road<br>Phoenix, AZ 85004</dd></div>
+          <div><dt>Hours</dt><dd>Mon to Fri, 7:30 AM to 6:00 PM<br>Sat, 8:00 AM to 3:00 PM</dd></div>
+        </dl>
+        <div class="saved-quote" id="savedQuote"><strong>Latest demo request</strong><p>No quote request submitted yet.</p></div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div><strong>RoadLine Tire & Auto</strong><p>Template content for client demos. Replace with real shop address, hours, and offers.</p></div>
+    <div class="footer-links"><a href="index.html">Home</a><a href="services.html">Services</a><a href="tel:+15550195500">(555) 019-5500</a></div>
+  </footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>
