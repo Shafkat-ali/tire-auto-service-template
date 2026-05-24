@@ -2,6 +2,8 @@
 
 A static website template for tire shops, auto service businesses, wheel shops, small dealers, and similar appointment-based service companies.
 
+https://shafkat-ali.github.io/tire-auto-service-template/
+
 ## Pages
 
 - `index.html` - homepage with hero, tire finder, highlights, and conversion sections
